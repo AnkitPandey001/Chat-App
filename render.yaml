@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: Chat-App
-    env: node
-    buildCommand: npm install && npm run build
-    startCommand: npm start
-    plan: free
